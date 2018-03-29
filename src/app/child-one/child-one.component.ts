@@ -7,7 +7,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class ChildOneComponent implements OnInit {
 
-  @Output
+  @Output()
   onButtonClick = new EventEmitter<string>();
 
 
